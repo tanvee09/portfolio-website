@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+.navbar {
+  -webkit-box-shadow: 0px 7px 15px 4px rgba(252, 223, 226, 0.5) !important;
+  -moz-box-shadow: 0px 7px 15px 4px rgb(248, 231, 233, 0.5) !important;
+  box-shadow: 0px 7px 15px 4px rgba(252, 223, 226, 0.4) !important;
+  font-size: 18px;
+  padding: 0.6em 2em;
+  margin-bottom: 2em;
+}
+
+body {
+  background-color: #faf2f3;
+}
+
+.header {
+    background-image: url('./images/header.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5em;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+#myimg {
+    border-radius: 50%;
+    border: 5px solid #f1c8d2;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.nav-item {
+    width: 8em;
+    background-color: #f1c8d2;
+    border-radius: 3px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.fa {
+    color: #f1c8d2;
+    transition: transform 0.5s;
+    /* margin-right: 12px;
+    margin-top: 1rem; */
+    margin: 1rem 12px 0 0;
+}
+
+.fa:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.section-heading {
+    font-family: 'Sofia', cursive;
+}
+
+.component {
+    margin-bottom: 5em;
+}
+
+.edu, .proj {
+    padding: 1rem;
+}
+
+.edu-card {
+    border: 5px solid #f1c8d2;
+    padding: 1em;
+    background-color: #f5dae1;
+}
+
+.proj-card {
+    text-align: center;
+    border: 5px solid #f1c8d2;
+    background-color: #f5dae1;
+}
+
+.proj-img {
+    width: 100%;
+}
+
+.git-link {
+    outline: none;
+    display: inline-block;
+    border: none;
+    background-color: #f1c8d2;
+    padding: 7px 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.git-link:hover {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.info {
+    width: 100%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #f1c8d2;
+    text-align: center;
+    padding: 6px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f5dae1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f5a1b6;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fa7899;
+  }

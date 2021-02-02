@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvee Balhara</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <h1 class="name">Tanvee Balhara</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href='#'><strong style="text-decoration: underline; margin-left: 5px;">Tanvee</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active login">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link register" href="#education">Education</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link register" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link register" href="#achievements">Achievements</a>
+                </li>
+                </ul>
+            </div>     
+        </div>
+    </nav>
+    <div class="container" id="about">
+        <div class="row component">
+            <div class="col-12 col-lg-5 align-self-center" style="text-align: center;">
+                <img src='./images/me.png' id="myimg" class="mx-auto"/>
+            </div>
+            <div class="col-12 col-lg-7 align-self-center mx-auto intro" style="padding: 2em 0;">
+                <p>Hey! I am Tanvee Balhara, a Computer Engineering Undergraduate at Netaji Subhas University of Technology. I am also a Google WTEF scholar. I am intersted in web development and machine learning.</p>
+                <p id="socialicons" style="margin: 0;">
+                    <a target='_blank' href="https://github.com/tanvee09/"><i class="fa fa-github" style="font-size: 48px;"></i></a>
+                    <a target='_blank' href="https://gitlab.com/tanvee_balhara/"><i class="fa fa-gitlab" style="font-size: 48px;"></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/in/tanvee-balhara/"><i class="fa fa-linkedin-square" style="font-size: 48px;"></i></a>
+                    <a target='_blank' href="mailto:balharatanvee@gmail.com"><i class="fa fa-envelope" style="font-size: 48px;"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="row section-heading" id="education">
+            <h1>Education</h1>
+        </div>
+        <div class="row component">
+            <div class="col-12 col-lg-4 mx-auto edu">
+                <div class="edu-card mx-auto">
+                    <h5>B.Tech. in Computer Engineering</h5>
+                    <h5>(2019-23)</h5>
+                    <p>Netaji Subhas Univeristy of Technology</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mx-auto edu">
+                <div class="edu-card mx-auto">
+                    <h5>Class XII</h5>
+                    <h5>(2018-19)</h5>
+                    <p>St. Xavier's School</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mx-auto edu">
+                <div class="edu-card mx-auto">
+                    <h5>Class X</h5>
+                    <h5>(2016-17)</h5>
+                    <p>St. Xavier's School</p>
+                </div>
+            </div>
+        </div>
+        <div class="row section-heading" id="projects">
+            <h1>Projects</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto proj">
+                <div class="proj-card mx-auto">
+                    <img src='https://camo.githubusercontent.com/cf1e906b4ea44cc6e4bf044417c8bb80c3f612a29ff7afad18e37a1ed01be536/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f53637265656e73686f742d66726f6d2d323032312d30312d31302d31382d35362d31342e706e67' class="proj-img">
+                    <div class="info">
+                        <h4 style="display: inline-block; margin-right: 2rem;">KADT Learning</h4>
+                        <a href="https://github.com/tanvee09/KADT-Learning" class="git-link">Go to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mx-auto proj">
+                <div class="proj-card mx-auto">
+                    <img src='./images/decarbonate.png' class="proj-img">
+                    <div class="info">
+                        <h4 style="display: inline-block; margin-right: 2rem;">Decarbonate</h4>
+                        <a href="https://github.com/tanvee09/Decarbonate-2" class="git-link">Go to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row component">
+            <div class="col-12 col-lg-6 mx-auto proj">
+                <div class="proj-card mx-auto">
+                    <img src='./images/tetris.png' class="proj-img">
+                    <div class="info">
+                        <h4 style="display: inline-block; margin-right: 2rem;">Tetris Tadishi</h4>
+                        <a href="" class="git-link">Go to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mx-auto proj">
+                <div class="proj-card mx-auto">
+                    <img src='./images/usibuy.png' class="proj-img">
+                    <div class="info">
+                        <h4 style="display: inline-block; margin-right: 2rem;">Usibuy</h4>
+                        <a href="" class="git-link">Go to Github Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section-heading" id="achievements">
+            <h1>Achievements</h1>
+        </div>
+        <div class="row">
+            <div class="col edu">
+                <div class="edu-card mx-auto">
+                    <h6>Google WTEF</h6>
+                    <p>Among the top 126 candidates selected for a two year experiential training program out of 15000+ applicants</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col edu">
+                <div class="edu-card mx-auto">
+                    <h6>Finalist in HackNITP - 2021</h6>
+                    <p>Among top 5 teams in national level hackathon</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col edu">
+                <div class="edu-card mx-auto">
+                    <h6>Finalist in HackNagpur - 2021</h6>
+                    <p>Among top 10 teams in national level hackathon</p>
+                </div>
+            </div>
+        </div>
+        <div class="row component">
+            <div class="col edu">
+                <div class="edu-card mx-auto">
+                    <h6>Finalist in HackinUTU - 2020</h6>
+                    <p>Among top 25 teams in national level hackathon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made by Tanvee Balhara &copy; 2021</p>
+    </div>
+</body>
+</html>
